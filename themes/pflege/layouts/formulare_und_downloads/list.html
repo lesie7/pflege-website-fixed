@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="container mx-auto">
+{{range .Pages}}
+    {{partial "file_download.html" .}}
+
+{{end}}
+</div>
+
+
+
+{{end}}
