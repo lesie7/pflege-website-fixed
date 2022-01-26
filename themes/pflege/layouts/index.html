@@ -1,11 +1,18 @@
 {{ define "main" }}
 <main class="">
-
-    <ul>
-        {{ range .Site.Pages }}
-        <a href="{{.URL}}"><li>{{.Title}}</li></a>
-        {{ end }}
-    </ul>
-
+    <div class="container mx-auto flex flex-col px-4 md:px-0 md:flex-row-reverse">
+        <img class="w-max rounded-md pb-7" src="/img/header-img.jpg">
+        <div class="">
+            <h1 class="pb-2">Liebevolle Pflege in den
+                <div class="underline ">eigenen vier Wänden.</div>
+            </h1>
+            <h4 class="pb-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</h4>
+            <button class="w-full rounded-md"><p class="font-serif text-xl">0531 - 30 29 35 00</p><p class="text-sm">Jetzt kostenlos anrufen</p></button>
+            <div class="bg-pg-gray py-3 px-5 text-center rounded-md mt-2"><img class="" src="">
+                <p>>90 Zufriedene Patient*innen</p>
+            </div>
+        </div>
+    </div>
 </main>
+</div>
 {{ end }}

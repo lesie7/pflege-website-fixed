@@ -1,7 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-li {
+nav li {
     @apply ml-8;
+}
+
+h1 {
+    @apply text-3xl font-serif font-semibold;
+}
+
+h4 {
+    @apply text-xl font-light;
+}
+
+button {
+    @apply bg-pg-green-500 px-12 py-2 text-white;
+}
+
+button p {
+    @apply text-white rounded-md;
+}
+
+* {
+    @apply text-pg-green-900;
 }
