@@ -18067,6 +18067,11 @@ nav li {
   color: rgba(255, 255, 255, var(--tw-text-opacity))
 }
 
+.is-active h5 {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity))
+}
+
 .is-active li {
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity))

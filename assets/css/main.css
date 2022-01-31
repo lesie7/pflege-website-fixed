@@ -32,6 +32,10 @@ nav li {
     @apply text-white
 }
 
+.is-active h5 {
+    @apply text-white
+}
+
 .is-active li {
     @apply text-white
 }
