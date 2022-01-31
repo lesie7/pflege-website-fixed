@@ -1,9 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-nav li {
-    @apply ml-8;
-}
+
 
 h1 {
     @apply text-3xl font-serif font-semibold;
@@ -23,4 +21,17 @@ button p {
 
 * {
     @apply text-pg-green-900;
+}
+
+
+nav li {
+    @apply py-3;
+}
+
+.is-active {
+    @apply text-white
+}
+
+.is-active li {
+    @apply text-white
 }

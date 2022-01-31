@@ -1,4 +1,12 @@
 
+<script>    
+    $('.hamburger').on('click', function(e) {
+      $('.hamburger').toggleClass("is-active"); //you can list several class names 
+      $('nav').toggleClass("is-active bg-pg-green-900"); //you can list several class names 
+      $('.nav-links').toggleClass("hidden"); //you can list several class names 
+      e.preventDefault();
+    });
+</script>
 
 <footer class="">
 </footer>

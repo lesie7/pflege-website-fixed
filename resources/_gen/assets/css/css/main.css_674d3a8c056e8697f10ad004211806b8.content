@@ -18021,10 +18021,6 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-nav li {
-  margin-left: 2rem;
-}
-
 h1 {
   font-family: Recoleta Alt, serif;
   font-size: 1.875rem;
@@ -18058,6 +18054,21 @@ button p {
 * {
   --tw-text-opacity: 1;
   color: rgba(93, 113, 26, var(--tw-text-opacity));
+}
+
+nav li {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.is-active {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity))
+}
+
+.is-active li {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity))
 }
 
 @media (min-width: 640px) {

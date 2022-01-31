@@ -4,5 +4,14 @@
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}" /> {{ else }} {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" /> {{ end }}
 
+
+{{ $style := resources.Get "/sass/hamburgers/hamburgers.scss" | resources.ToCSS }}
+
+<link rel="stylesheet" href="{{$style.RelPermalink}}">
 <link rel="stylesheet" href="static/fonts/Inter (web)/inter.css">
 <link rel="stylesheet" href="static/fonts/Recoleta Alt/Recoleta-SemiBold.ttf">
+
+<script
+			  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			  crossorigin="anonymous"></script>
