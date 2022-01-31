@@ -7,11 +7,20 @@
 
 {{ $style := resources.Get "/sass/hamburgers/hamburgers.scss" | resources.ToCSS }}
 
+{{ $recoleta := resources.Get "css/recoleta_alt.css" }}
+
 <link rel="stylesheet" href="{{$style.RelPermalink}}">
 <link rel="stylesheet" href="static/fonts/Inter (web)/inter.css">
-<link rel="stylesheet" href="static/fonts/Recoleta Alt/Recoleta-SemiBold.ttf">
+<link rel="stylesheet" href="{{$recoleta.RelPermalink}}">
 
 <script
 			  src="https://code.jquery.com/jquery-3.6.0.min.js"
 			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
 			  crossorigin="anonymous"></script>
+
+
+
+<!-- Google Fonts Import -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700;1,900&display=swap" rel="stylesheet"> 

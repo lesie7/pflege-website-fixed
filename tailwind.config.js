@@ -14,7 +14,7 @@ module.exports = {
         },
         fontFamily: {
             sans: ['Inter', 'sans-serif'],
-            serif: ['Recoleta Alt', 'serif'],
+            serif: ['Merriweather', 'serif'],
         },
     },
     variants: {

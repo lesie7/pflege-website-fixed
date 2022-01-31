@@ -14944,7 +14944,7 @@ video {
 }
 
 .font-serif {
-  font-family: Recoleta Alt, serif;
+  font-family: Merriweather, serif;
 }
 
 .text-xs {
@@ -18022,10 +18022,11 @@ video {
 }
 
 h1 {
-  font-family: Recoleta Alt, serif;
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-  font-weight: 600;
+  font-family: Merriweather, serif;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 900;
+  font-style: italic;
 }
 
 h4 {
@@ -32376,7 +32377,7 @@ nav li {
   }
 
   .sm\:font-serif {
-    font-family: Recoleta Alt, serif;
+    font-family: Merriweather, serif;
   }
 
   .sm\:text-xs {
@@ -49746,7 +49747,7 @@ nav li {
   }
 
   .md\:font-serif {
-    font-family: Recoleta Alt, serif;
+    font-family: Merriweather, serif;
   }
 
   .md\:text-xs {
@@ -67116,7 +67117,7 @@ nav li {
   }
 
   .lg\:font-serif {
-    font-family: Recoleta Alt, serif;
+    font-family: Merriweather, serif;
   }
 
   .lg\:text-xs {
@@ -84486,7 +84487,7 @@ nav li {
   }
 
   .xl\:font-serif {
-    font-family: Recoleta Alt, serif;
+    font-family: Merriweather, serif;
   }
 
   .xl\:text-xs {
@@ -101856,7 +101857,7 @@ nav li {
   }
 
   .\32xl\:font-serif {
-    font-family: Recoleta Alt, serif;
+    font-family: Merriweather, serif;
   }
 
   .\32xl\:text-xs {
