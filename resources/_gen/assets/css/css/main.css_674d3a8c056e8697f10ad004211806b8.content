@@ -18021,6 +18021,10 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+* {
+  transition: .3s;
+}
+
 h1 {
   font-family: Merriweather, serif;
   font-size: 2.25rem;
