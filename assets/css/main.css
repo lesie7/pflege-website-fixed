@@ -7,15 +7,15 @@
 }
 
 h1 {
-    @apply text-4xl font-serif font-black italic;
+    @apply text-4xl xl:text-5xl font-serif font-black italic;
 }
 
 h4 {
-    @apply text-xl font-light;
+    @apply text-xl xl:text-2xl font-light;
 }
 
 button {
-    @apply bg-pg-green-500 px-12 py-2 text-white;
+    @apply bg-pg-green-500 px-12 lg:px-16 py-2 text-white;
 }
 
 button p {
