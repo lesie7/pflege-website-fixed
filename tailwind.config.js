@@ -14,6 +14,13 @@ module.exports = {
                 500: '#a5c928',
                 900: '#5d711a',
             },
+            "grey" : {
+                50: "#F9FAFB",
+                100: "#F3F4F6",
+                200: "#E5E7EB",
+                300: "#D1D5DB",
+            },
+            "green-gray" : "EBEEE2",
         },
         fontFamily: {
             sans: ['Inter', 'sans-serif'],
