@@ -5,7 +5,14 @@ module.exports = {
     ],
     darkMode: false, // or 'media' or 'class'
     theme: {
-        extend: {},
+        extend: {
+            backgroundImage: {
+                'hero': "url('/img/header-img.jpg')",
+               },
+            dropShadow: {
+                '3xl': '0 35px 35px rgba(93, 113, 26, 0.25)',
+              }
+        },
         colors: {
             'white': '#ffffff',
             "pg-gray": "#ebeee1",

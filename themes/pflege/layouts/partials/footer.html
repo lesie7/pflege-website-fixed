@@ -3,12 +3,14 @@
     $('.hamburger').on('click', function(e) {
       $('.hamburger').toggleClass("is-active"); //you can list several class names 
       $('nav').toggleClass("is-active bg-pg-green-900"); //you can list several class names 
-      $('.nav-links').toggleClass("hidden"); //you can list several class names 
+      //$('.nav-links').toggleClass("hidden"); //you can list several class names 
+      $('.nav-links').slideToggle();
       e.preventDefault();
     });
 
     $(".faq-element").click(function(){
-      $(".faq-content").slideToggle();
+      $(this).find(".toggle-icon").toggleClass("hidden");
+      $(this).find(".faq-content").toggleClass("hidden");
     });
 </script>
 

@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main class="">
     <div class="container mx-auto flex flex-col px-8 md:px-0 lg:flex-row-reverse lg:items-center">
-        <img class="w-max lg:w-2/3 rounded-md pb-7" src="/img/header-img.jpg" alt="Pflegerin kümmert sich ambulant um eine Seniorin in deren eigenen Zuhause">
+        <div class="filter shadow-xl w-full h-64 lg:w-2/3 lg:h-96 rounded-md mb-7 bg-hero bg-cover bg-no-repeat" alt="Pflegerin kümmert sich ambulant um eine Seniorin in deren eigenen Zuhause"></div>
         <div class="lg:mr-8 max-w-lg">
             <h1 class="pb-2">Liebevolle Pflege in den eigenen vier Wänden.</h1>
             <h4 class="pb-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</h4>
@@ -27,7 +27,7 @@
         <div class="flex justify-center flex-col p-6 bg-green-gray my-4 text-center items-center border-2 border-grey-100 max-w-xl">
             <img src="img/quote-light.svg" class="w-12 my-4" alt="Kundenmeinung zum Pflegeteam Braunschweig">
             <h6 class="text-xl font-thin font-serif italic">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</h6>
-            <p class="font-bold text-sm uppercase text-pg-green-900 tracking-wider mt-4 opacity-75">- Beate Z.</p>
+            <p class="font-bold text-sm uppercase text-pg-green-900 tracking-wider mt-4 opacity-75">- Maja K.</p>
         </div>
     </div>
 </div>
@@ -44,12 +44,10 @@
     <div class="container mx-auto px-8 md:px-0">
         <h3>Häufig gestellte Fragen</h3>
 
-        <div class="mt-6 faq-element">
-            <div class="w-full border-b-2 border-grey-300 cursor-pointer">
-                <p class="font-serif font-bold text-md italic my-3">Das ist meine Frage</p>
-                <p class="hidden faq-content">Das ist die Antwort</p>
-            </div>
-        </div>
+        {{ range (where .Site.RegularPages.ByTitle "Section" "faq" ) }}
+                {{ partial "faq_element.html" . }}
+        {{ end }}
+        
     </div>
 </div>
 {{ end }}
