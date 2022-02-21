@@ -11,11 +11,15 @@ h1 {
 }
 
 h3 {
-    @apply text-xl xl:text-2xl font-serif font-black italic;
+    @apply text-xl xl:text-2xl font-serif font-black italic text-center border-b-4 w-full sm:w-96 border-pg-green-900 border-opacity-50 border-dotted pb-6 my-8 mx-auto ;
 }
 
 h4 {
     @apply text-xl xl:text-2xl font-light;
+}
+
+h5 {
+    @apply text-lg xl:text-xl font-bold;
 }
 
 button {

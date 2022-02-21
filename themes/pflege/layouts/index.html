@@ -16,6 +16,19 @@
 
 <div class="mt-12">
     <div class="container mx-auto px-8 md:px-0">
+        <h3>Leistungen</h3>
+
+        <div class="flex flex-row flex-wrap justify-center items-center">
+        {{ range (where .Site.RegularPages.ByTitle "Section" "leistungen") }}
+            {{partial "leistung.html" .}}
+        {{end}}
+        </div>
+    </div>
+</div>
+
+
+<div class="mt-12">
+    <div class="container mx-auto px-8 md:px-0">
         <h3>Wie unsere Pflege abläuft</h3>
     </div>
 </div>
@@ -26,8 +39,8 @@
 
         <div class="flex justify-center flex-col p-6 bg-green-gray my-4 text-center items-center border-2 border-grey-100 max-w-xl">
             <img src="img/quote-light.svg" class="w-12 my-4" alt="Kundenmeinung zum Pflegeteam Braunschweig">
-            <h6 class="text-xl font-thin font-serif italic">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</h6>
-            <p class="font-bold text-sm uppercase text-pg-green-900 tracking-wider mt-4 opacity-75">- Maja K.</p>
+            <h6 class="text-xl font-thin font-serif italic text-grey-900 opacity-75">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</h6>
+            <p class="font-bold text-sm uppercase text-grey-900 tracking-wider mt-4">- Maja K.</p>
         </div>
     </div>
 </div>
@@ -45,6 +58,7 @@
         <h3>Häufig gestellte Fragen</h3>
 
         {{ range (where .Site.RegularPages.ByTitle "Section" "faq" ) }}
+
                 {{ partial "faq_element.html" . }}
         {{ end }}
         
