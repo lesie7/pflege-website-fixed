@@ -28,7 +28,7 @@ jobs:
           hugo-version: '0.74.3'
       - name: Build project
         if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
-        run: hugo --gc --minify -b ${{ steps.project.outputs.site-url }}
+        run: hugo -D
       - name: Deploy build
         if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
         uses: ionos-deploy-now/deploy-to-ionos-action@v1
