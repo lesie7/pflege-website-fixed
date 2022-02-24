@@ -2,3 +2,6 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Pflegeteam Braunschweig"
 theme = "pflege"
+
+
+buildDrafts = true
