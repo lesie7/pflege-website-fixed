@@ -17,3 +17,5 @@ fields:
 - name: draft
   type: boolean
   label: Veröffentlichen
+pages:
+- content/faq/test_frage.md
