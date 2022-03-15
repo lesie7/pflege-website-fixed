@@ -3,7 +3,7 @@ label: Fragen und Antworten - Element
 hide_body: true
 fields:
 - type: text
-  name: title
+  name: frage
   label: Frage
 - name: antwort
   type: textarea
@@ -14,3 +14,6 @@ fields:
     schema:
       format: markdown
   label: Antwort
+- name: draft
+  type: boolean
+  label: Veröffentlichen
