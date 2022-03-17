@@ -16,8 +16,10 @@ module.exports = {
         colors: {
             'white': '#ffffff',
             "pg-gray": "#ebeee1",
+            "text-color": "#4D525D",
             'pg-green': {
                 100: '#f8fbee',
+                300: '#EBEEE1',
                 500: '#a5c928',
                 900: '#5d711a',
             },

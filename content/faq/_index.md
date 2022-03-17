@@ -1,4 +1,4 @@
 ---
 title: "faq"
-draft: true
+draft: false
 ---
