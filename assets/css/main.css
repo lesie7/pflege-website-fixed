@@ -23,7 +23,7 @@ h5 {
 }
 
 button {
-    @apply bg-pg-green-500 px-12 lg:px-16 py-2 text-white focus:bg-pg-green-700;
+    @apply bg-pg-green-500 px-5 sm:px-8 lg:px-10 py-2 text-white focus:bg-pg-green-700;
 }
 
 button p {
