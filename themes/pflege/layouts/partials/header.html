@@ -1,25 +1,47 @@
 <div class="pb-10 lg:pb-0 bg-pg-green-100 lg:bg-hero">
-  <div class="w-full h-full from-pg-green-100 lg:visible lg:pb-10 lg:pb-24 bg-gradient-to-b lg:bg-gradient-to-r lg:from-grey-900">
-    <nav class="py-8 mb-10">
-        <div class="container flex flex-row items-center justify-between h-full px-8 mx-auto md:px-0">
+  <div class="w-full h-full from-pg-green-100 lg:visible lg:pb-10 lg:pb-24 bg-gradient-to-b lg:bg-gradient-to-r lg:from-gradient-green">
+
+    <nav class="py-8 mb-10 fixed w-full z-50 filter lg:py-3 lg:bg-white lg:drop-shadow-xl">
+
+      <!-- Logo -->
+        <div class="container flex flex-row items-center justify-between h-full px-8 mx-auto md:px-0 lg:px-8">
                 <a class="flex flex-row items-center" href="/">
                     <img src="/img/ptbs_logo.svg" class="h-8" alt="Pflegeteam Braunschweig Logo">
-                    <h5 class="w-24 ml-3 font-serif leading-snug lg:text-white"><span class="italic font-bold lg:text-white">Pflegeteam</span><br><span class="italic font-normal lg:text-white">Braunschweig</span></h5>
+                    <h5 class="w-24 ml-3 font-serif leading-snug lg:text-lg "><span class="italic font-bold ">Pflegeteam</span><br><span class="italic font-normal ">Braunschweig</span></h5>
                 </a>
-
-                <button class="hamburger hamburger--slider" type="button">
+      
+      <!-- Hamburger -->
+                <button class="hamburger hamburger--slider focus:bg-opacity-0 hover:bg-opacity-0 lg:hidden" type="button">
                     <span class="hamburger-box">
                       <span class="hamburger-inner"></span>
                     </span>
                   </button>  
+
+
+                  <div class="hidden lg:flex flex-row items-center">
+                    <ul class="font-sans text-md font-normal text-center flex flex-row lg:mr-6 xl:mr-12">
+                      <a class="" href=""><li>Start</li></a>
+                      <a href=""><li>Kontakt</li></a>
+                      <a href=""><li>Formulare</li></a>
+                    </ul>
+
+                    <a href="tel:053130293500"><button class="flex justify-between w-full rounded-md lg:w-auto"><img src="img/phone-3.svg" class="w-6 opacity-75"><div><p class="font-serif text-xl font-semibold">0531 - 30 29 35 00</p><p class="text-sm ">Jetzt kostenlos anrufen</p></div><div class="w-8"></div></button></a>
+                  </div>
         </div>
-        <div class="absolute w-full shadow-2xl bg-pg-green-900 filter">
-        <div class="container flex flex-row items-center justify-between hidden h-auto px-4 py-16 py-24 mx-auto md:px-0 nav-links ">
-          <ul class="w-full font-serif text-2xl italic font-normal text-center">
+
+      <!-- Menu-Items -->
+        <div class="absolute w-full  bg-pg-green-900 lg:hidden">
+        <div class="container flex flex-row items-center justify-between hidden h-auto px-4 py-24 mx-auto md:px-0 nav-links lg:py-0 lg:flex-col lg:inline-block">
+          <ul class="w-full font-serif text-2xl italic font-normal text-center lg:font-sans lg:not-italic lg:text-xl lg:font-normal">
             <a href=""><li>Start</li></a>
             <a href=""><li>Kontakt</li></a>
             <a href=""><li>Formulare</li></a>
           </ul>
+
+          
+
+      
         </div>
       </div>
     </nav>
+

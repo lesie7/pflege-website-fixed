@@ -1,4 +1,5 @@
 module.exports = {
+    important: true,
     purge: [
         'themes/layouts/**/*.html',
         'themes/layouts/*.html',
@@ -17,6 +18,7 @@ module.exports = {
             'white': '#ffffff',
             "pg-gray": "#ebeee1",
             "text-color": "#4D525D",
+            "gradient-green": "#112715",
             'pg-green': {
                 100: '#f8fbee',
                 300: '#EBEEE1',

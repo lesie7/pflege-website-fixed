@@ -23,7 +23,7 @@ h5 {
 }
 
 button {
-    @apply bg-pg-green-500 px-5 sm:px-8 lg:px-10 py-2 text-white focus:bg-pg-green-700;
+    @apply bg-pg-green-500 px-5 sm:px-8 lg:px-10 py-2 text-white focus:bg-pg-green-700 hover:bg-pg-green-700;
 }
 
 button p {
@@ -36,17 +36,25 @@ button p {
 
 
 nav li {
-    @apply py-3;
+    @apply py-3 text-white lg:text-text-color;
+}
+
+nav ul a {
+    @apply lg:ml-7;
 }
 
 .is-active {
     @apply text-white
 }
 
-.is-active h5 {
+.is-active h5 span {
     @apply text-white
 }
 
 .is-active li {
     @apply text-white
+}
+
+.hamburger {
+    @apply lg:hidden
 }
