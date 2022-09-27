@@ -3,58 +3,57 @@
 @tailwind utilities;
 
 * {
-    transition: .3s;
+  transition: 0.3s;
 }
 
 h1 {
-    @apply text-4xl xl:text-5xl font-serif font-black italic;
+  @apply text-4xl xl:text-5xl font-serif font-black italic;
 }
 
 h3 {
-    @apply text-xl xl:text-2xl font-serif font-black italic text-center border-b-4 w-8/12 sm:w-96 border-pg-green-900 border-opacity-50 border-dotted pb-6 my-8 mx-auto ;
+  @apply text-xl xl:text-2xl font-serif font-black italic text-center border-b-4 w-8/12 sm:w-96 border-pg-green-900 border-opacity-50 border-dotted pb-6 my-8 mx-auto;
 }
 
 h4 {
-    @apply text-xl xl:text-2xl font-light;
+  @apply text-xl xl:text-2xl font-light;
 }
 
 h5 {
-    @apply text-lg xl:text-xl font-serif italic font-bold;
+  @apply text-lg xl:text-xl font-serif italic font-bold;
 }
 
 button {
-    @apply bg-pg-green-500 px-5 sm:px-8 lg:px-10 py-2 text-white focus:bg-pg-green-700 hover:bg-pg-green-700;
+  @apply bg-pg-green-500 px-5 sm:px-8 lg:px-10 py-2 text-white focus:bg-pg-green-700 hover:bg-pg-green-700;
 }
 
 button p {
-    @apply text-white rounded-md;
+  @apply text-white rounded-md;
 }
 
 * {
-    @apply text-pg-green-900;
+  @apply text-pg-green-900;
 }
 
-
 nav li {
-    @apply py-3 text-white lg:text-text-color;
+  @apply py-3 text-white lg:text-text-color;
 }
 
 nav ul a {
-    @apply lg:ml-7;
+  @apply lg:ml-7;
 }
 
 .is-active {
-    @apply text-white
+  @apply text-white;
 }
 
 .is-active h5 span {
-    @apply text-white
+  @apply text-white;
 }
 
 .is-active li {
-    @apply text-white
+  @apply text-white;
 }
 
 .hamburger {
-    @apply lg:hidden
+  @apply lg:hidden;
 }
