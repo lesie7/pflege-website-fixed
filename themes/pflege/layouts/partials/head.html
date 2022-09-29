@@ -9,8 +9,8 @@
   href="{{ $styles.RelPermalink }}"
   integrity="{{ $styles.Data.Integrity }}"
 />
-{{ end }} {{ $style := resources.Get
-"/sass/hamburgers/hamburgers.scss"|resources.ToCSS }}
+{{ end }}
+{{$style:=resources.Get"/sass/hamburgers/hamburgers.scss"|resources.ToCSS }}
 {{$recoleta:=resources.Get"css/recoleta_alt.css" }}
 
 <link rel="stylesheet" href="{{$style.RelPermalink}}" />
