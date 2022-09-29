@@ -15,7 +15,7 @@ h2 {
 }
 
 h3 {
-  @apply text-xl xl:text-2xl font-serif font-black italic text-center border-b-4 w-8/12 sm:w-96 border-pg-green-900 border-opacity-50 border-dotted pb-6 my-8 mx-auto;
+  @apply text-xl xl:text-2xl font-serif font-black italic text-center  w-8/12 sm:w-96 pb-6 my-8 mx-auto underline decoration-4 decoration-pg-green-500 underline-offset-4 decoration-solid;
 }
 
 h4 {

@@ -793,7 +793,7 @@ video {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops)) !important;
 }
 .bg-hero {
-  background-image: url('/img/header-img.jpg') !important;
+  background-image: url('/img/header-img.png') !important;
 }
 .bg-marketing_banner_img {
   background-image: url('/img/marketing-banner-img.png') !important;
@@ -1018,10 +1018,6 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   width: 66.666667%;
-  border-bottom-width: 4px;
-  border-style: dotted;
-  border-color: rgb(93 113 26 / var(--tw-border-opacity));
-  --tw-border-opacity: 0.5;
   padding-bottom: 1.5rem;
   text-align: center;
   font-family: Merriweather, serif;
@@ -1029,6 +1025,11 @@ h3 {
   line-height: 1.75rem;
   font-weight: 900;
   font-style: italic;
+  text-decoration-line: underline;
+  text-decoration-color: #a5c928;
+  text-decoration-style: solid;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 4px;
 }
 
 @media (min-width: 640px) {
@@ -1241,7 +1242,7 @@ nav li {
   }
 
   .md\:bg-hero {
-    background-image: url('/img/header-img.jpg') !important;
+    background-image: url('/img/header-img.png') !important;
   }
 
   .md\:bg-center {
