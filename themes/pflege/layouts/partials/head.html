@@ -1,3 +1,5 @@
+<!-- prettier-ignore -->
+
 <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,8 +12,8 @@
   integrity="{{ $styles.Data.Integrity }}"
 />
 {{ end }}
-{{$style:=resources.Get"/sass/hamburgers/hamburgers.scss"|resources.ToCSS }}
-{{$recoleta:=resources.Get"css/recoleta_alt.css" }}
+<!-- prettier-ignore -->
+{{$style:=resources.Get "/sass/hamburgers/hamburgers.scss" |resources.ToCSS }}
 
 <link rel="stylesheet" href="{{$style.RelPermalink}}" />
 <link rel="stylesheet" href="static/fonts/Inter (web)/inter.css" />
