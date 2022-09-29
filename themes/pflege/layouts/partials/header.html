@@ -1,9 +1,9 @@
 <nav
-  class="py-8 mb-10 fixed w-full z-50 filter lg:py-0 lg:bg-white lg:drop-shadow-xl"
+  class="py-8 mb-10 fixed w-full z-50 filter lg:py-0 lg:bg-white lg:drop-shadow-xl top-0"
 >
   <div class="hidden w-full bg-slate-600 py-1 lg:inline-block">
     <div class="container mx-auto px-8">
-      <div class="flex justify-start gap-8">
+      <div class="flex justify-end gap-8">
         <a
           href="mailto:pflegeteam.bs@gmx.de "
           class="flex items-center text-xs font-semibold uppercase text-white"
@@ -23,6 +23,8 @@
           </svg>
           pflegeteam-bs@gmx.net
         </a>
+        <!-- Phone Number Excluded -->
+        <!--
         <a
           href="tel:053130293500"
           class="flex items-center text-xs font-semibold uppercase text-white"
@@ -41,7 +43,7 @@
           </svg>
 
           0531 - 30 29 35 00
-        </a>
+        </a>-->
       </div>
     </div>
   </div>
@@ -51,7 +53,7 @@
   >
     <a class="flex flex-row items-center" href="/">
       <img
-        src="/img/ptbs_logo.svg"
+        src='{{"img/ptbs_logo.svg" | absURL}}'
         class="h-8"
         alt="Pflegeteam Braunschweig Logo"
       />
@@ -86,7 +88,7 @@
         ><button
           class="flex justify-between w-full rounded-md lg:w-auto items-center"
         >
-          <img src="img/phone-3.svg" class="w-6 opacity-75" />
+          <img src='{{"img/phone-3.svg" | absURL }}' class="w-6 opacity-75" />
           <div>
             <p class="font-serif text-xl font-semibold">0531 - 30 29 35 00</p>
             <p class="text-sm">Jetzt kostenlos anrufen</p>

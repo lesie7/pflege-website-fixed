@@ -10,6 +10,10 @@ h1 {
   @apply text-4xl xl:text-5xl font-serif font-black italic;
 }
 
+h2 {
+  @apply text-2xl xl:text-3xl font-serif font-black italic mb-2 mt-9;
+}
+
 h3 {
   @apply text-xl xl:text-2xl font-serif font-black italic text-center border-b-4 w-8/12 sm:w-96 border-pg-green-900 border-opacity-50 border-dotted pb-6 my-8 mx-auto;
 }
@@ -23,7 +27,11 @@ h5 {
 }
 
 button {
-  @apply bg-pg-green-500 px-5 sm:px-8 lg:px-10 py-2 text-white focus:bg-pg-green-700 hover:bg-pg-green-700;
+  @apply bg-pg-green-700 px-5 sm:px-8 lg:px-10 py-2 text-white focus:bg-pg-green-900 hover:bg-pg-green-900;
+}
+
+.mail-btn {
+  @apply bg-slate-600 hover:bg-slate-800;
 }
 
 button p {
@@ -56,4 +64,14 @@ nav ul a {
 
 .hamburger {
   @apply lg:hidden;
+}
+
+/* Custom Elements */
+.single-container p,
+.single-container strong {
+  @apply my-2 text-text-color;
+}
+
+.single-container a {
+  @apply decoration-pg-green-500/75 decoration-2 decoration-solid underline;
 }

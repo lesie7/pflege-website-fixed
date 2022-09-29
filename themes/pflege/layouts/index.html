@@ -1,12 +1,12 @@
 {{ define "main" }}
-<div class="pb-10 lg:pb-0 bg-pg-green-100 lg:bg-hero bg-cover">
+<div class="pb-10 lg:pb-0 bg-pg-green-100 md:bg-hero bg-cover">
   <div
     class="w-full h-full from-pg-green-100 lg:visible lg:pb-10 lg:pb-24 bg-gradient-to-b lg:bg-gradient-to-r lg:from-gradient-green"
   >
     <div class="pt-40 lg:pt-48">
       <div class="container flex flex-col px-8 mx-auto">
         <div
-          class="w-full h-64 bg-no-repeat bg-cover rounded-md shadow-xl lg:hidden filter lg:w-2/3 lg:h-96 mb-7 bg-hero"
+          class="w-full h-64 bg-no-repeat bg-cover rounded-md shadow-xl md:hidden filter lg:w-2/3 lg:h-96 mb-7 bg-hero"
           alt="Pflegerin kümmert sich ambulant um eine Seniorin in deren eigenen Zuhause"
         ></div>
         <div class="max-w-lg lg:mr-8">
@@ -36,7 +36,7 @@
             class="inline-flex flex-row justify-between w-full px-5 py-3 mt-2 text-center align-middle rounded-md bg-pg-gray lg:w-auto"
           >
             <img class="h-7" src="/img/thumb.svg" />
-            <p class="font-serif italic font-normal lg:ml-4">
+            <p class="font-serif italic font-normal lg:ml-4 backdrop-blur-sm">
               >90 Zufriedene Patient*innen
             </p>
             <div></div>
@@ -89,6 +89,8 @@
     </div>
   </div>
 </div>
+
+{{ partial "marketing-banner.html" . }}
 
 <div class="mt-12">
   <div class="container px-8 mx-auto">

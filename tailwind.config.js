@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         hero: "url('/img/header-img.jpg')",
+        marketing_banner_img: "url('/img/marketing-banner-img.png')",
       },
       dropShadow: {
         "3xl": "0 35px 35px rgba(93, 113, 26, 0.25)",
