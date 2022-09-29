@@ -52,8 +52,8 @@
     <h3>Leistungen</h3>
 
     <div class="flex flex-row flex-wrap items-center justify-center">
-      {{range where .Site.RegularPages "Section" "leistungen" }} {{partial
-      "leistung.html" .}} {{end}}
+      <!-- prettier-ignore -->
+      {{range where .Site.RegularPages "Section" "leistungen" }} {{partial "leistung.html" .}} {{end}}
     </div>
   </div>
 </div>
@@ -61,9 +61,8 @@
 <div class="mt-12">
   <div class="container px-8 mx-auto">
     <h3>Wie unsere Pflege abläuft</h3>
-
-    {{range where .Site.RegularPages "Section" "ablauf" }} {{partial
-    "ablauf.html" .}} {{end}}
+    <!-- prettier-ignore -->
+    {{range where .Site.RegularPages "Section" "ablauf" }} {{partial "ablauf.html" .}} {{end}}
   </div>
 </div>
 
@@ -124,9 +123,8 @@
 <div class="mt-12">
   <div class="container px-8 mx-auto">
     <h3>Häufig gestellte Fragen</h3>
-
-    {{range where .Site.RegularPages "Section" "faq" }} {{ partial
-    "faq_element.html" . }} {{ end }}
+    <!-- prettier-ignore -->
+    {{range where .Site.RegularPages "Section" "faq" }} {{ partial "faq_element.html" . }} {{ end }}
   </div>
 </div>
 {{ end }}
