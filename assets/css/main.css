@@ -68,10 +68,23 @@ nav ul a {
 
 /* Custom Elements */
 .single-container p,
-.single-container strong {
+.single-container strong,
+.single-container li {
   @apply my-2 text-text-color;
+}
+
+.single-container li {
+  @apply list-disc list-inside ml-5;
 }
 
 .single-container a {
   @apply decoration-pg-green-500/75 decoration-2 decoration-solid underline;
+}
+
+.single-container h4 {
+  @apply mt-8 mb-3;
+}
+
+.single-container h3 {
+  @apply text-left mx-0 mt-10 mb-5 p-0 w-full;
 }
