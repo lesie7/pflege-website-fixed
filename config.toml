@@ -12,7 +12,7 @@ buildDrafts = true
 
 
 [params]
-  ogimage = "/img/og_image.png"
+  ogimage = "/img/og_image-2.png"
   sitename = "Example Site Name"
   description = "Ambulante Pflege in Braunschweig."
 
