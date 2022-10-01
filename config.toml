@@ -1,6 +1,24 @@
 baseURL = "https://home-5006704708.app-ionos.space/"
-languageCode = "en-us"
+defaultContentLanguage = "de"
 title = "Pflegeteam Braunschweig"
 theme = "pflege"
 
 buildDrafts = true
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+
+[params]
+  og_image = "/img/og_image.png"
+  sitename = "Example Site Name"
+  description = "Ambulante Pflege in Braunschweig."
+
+
+[languages]
+  [languages.de]
+    languageName = "German"
+    languageCode = "de-de"
+    weight = 1

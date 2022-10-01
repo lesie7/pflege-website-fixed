@@ -32,14 +32,45 @@
   rel="stylesheet"
 />
 
-<title>
-  {{ if .IsHome }}Startseite | {{ else }}{{ if .Page.Title }}{{ .Page.Title }} |
-  {{ end }}{{ end }}{{ .Site.Title }}
-</title>
-<meta name="description" content="Ambulante Pflege in Braunschweig." />
+<!-- Title -->
+<title itemprop="name">{{ .Title }} | {{ .Site.Title }}</title>
+<meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}" />
+<meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}" />
+<meta itemprop="name" content="{{ .Title }} | {{ .Site.Title }}" />
+<meta name="application-name" content="{{ .Title }} | {{ .Site.Title }}" />
+<meta property="og:site_name" content="{{ .Site.Params.sitename }}" />
 
+<!-- Description -->
+<meta name="description" content="{{ .Params.description }}" />
+<meta itemprop="description" content="{{ .Params.description }}" />
+<meta property="og:description" content="{{ .Params.description }}" />
+<meta name="twitter:description" content="{{ .Params.description }}" />
+
+<!-- Favicon -->
 <link
   rel="icon"
   type="image/svg"
   href='{{"img/pflegeteam_braunschweig-favicon.svg" | absURL }}'
 />
+<link
+  rel="apple-touch-icon"
+  type="image/svg"
+  href='{{"img/pflegeteam_braunschweig-favicon.svg" | absURL }}'
+/>
+
+<!-- Search Engine Crawler -->
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+
+<!-- Image Tags -->
+{{ with .Params.image }}
+<meta itemprop="image" content="{{ . | absURL }}" />
+<meta property="og:image" content="{{ . | absURL }}" />
+<meta name="twitter:image" content="{{ . | absURL }}" />
+<meta name="twitter:image:src" content="{{ . | absURL }}" />
+{{ else }}
+<meta itemprop="image" content="{{ .Site.Params.ogimage | absURL }}" />
+<meta property="og:image" content="{{ .Site.Params.ogimage | absURL }}" />
+<meta name="twitter:image" content="{{ .Site.Params.ogimage | absURL }}" />
+<meta name="twitter:image:src" content="{{ .Site.Params.ogimage | absURL }}" />
+{{ end }}
