@@ -47,16 +47,34 @@
   </div>
 </div>
 
+<div class="text-center">
+  <h4 class="py-20 text-gray-700">
+    Als zugelassener Pflegedienst sind wir Partner aller
+    <span
+      class="font-medium text-gray-700 underline decoration-2 decoration-pg-green-700/50 underline-offset-4"
+      >gesetzlichen</span
+    >
+    und
+    <span
+      class="font-medium text-gray-700 underline decoration-2 decoration-pg-green-700/50 underline-offset-4"
+      >privaten</span
+    >
+    Krankenkassen
+  </h4>
+</div>
+
 <div class="mt-12">
   <div class="container px-8 mx-auto">
     <h3>Leistungen</h3>
 
     <div class="flex flex-row flex-wrap items-center justify-center">
       <!-- prettier-ignore -->
-      {{range where .Site.RegularPages "Section" "leistungen" }} {{partial "leistung.html" .}} {{end}}
+      {{range sort (where .Site.RegularPages "Section" "leistungen") ".Params.sort"}} {{partial "leistung.html" .}} {{end}}
     </div>
   </div>
 </div>
+
+{{ partial "pflegegebiet.html" . }}
 
 <div class="mt-12">
   <div class="container px-8 mx-auto">

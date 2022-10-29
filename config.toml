@@ -13,8 +13,8 @@ buildDrafts = true
 
 [params]
   ogimage = "/img/og_image-2.png"
-  sitename = "Example Site Name"
   description = "Ambulante Pflege in Braunschweig."
+  email = "pflegeteam.bs@gmx.de"
 
 
 [languages]
@@ -22,3 +22,4 @@ buildDrafts = true
     languageName = "German"
     languageCode = "de-de"
     weight = 1
+

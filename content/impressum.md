@@ -33,4 +33,6 @@ https://www.flaticon.com/authors/dave-gandy
 Nursing Icons
 <a href="https://www.flaticon.com/free-icons/medicine-and-health" title="medicine-and-health icons">Medicine-and-health icons created by Freepik - Flaticon</a>
 
+<a href="https://www.flaticon.com/authors/konkapp" title="medicine-and-health icons">Shower Icon</a>
+
 Design und Entwicklung der Website von [Sieben Digital](https://sieben.digital/)
