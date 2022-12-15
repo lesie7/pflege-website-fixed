@@ -3,7 +3,8 @@
     $(".hamburger").toggleClass("is-active"); //you can list several class names
     $("nav").toggleClass("is-active bg-pg-green-900"); //you can list several class names
     //$('.nav-links').toggleClass("hidden"); //you can list several class names
-    $(".nav-links").slideToggle();
+    $(".nav-links").toggleClass("hidden");
+    $(".navbar-main").toggleClass("bg-gradient-to-b");
     e.preventDefault();
   });
 
@@ -42,7 +43,7 @@
 {{partial "telephone-banner.html"}}
 
 <!-- Footer Starts -->
-<footer class="bottom-0 w-full py-16 mt-12 bg-grey-100">
+<footer class="bottom-0 w-full py-16 mt-12 bg-slate-50">
   <div class="container flex flex-col items-center px-8 mx-auto md:px-0">
     <a class="flex flex-col items-center justify-center" href="/">
       <img
@@ -55,40 +56,7 @@
       </h5>
     </a>
     <div class="flex flex-wrap justify-center gap-6 mt-6">
-      <a href="tel:053130293500"
-        ><button class="flex justify-between w-full rounded-md lg:w-auto">
-          <img src='{{"img/phone-3.svg" | absURL}}' class="opacity-75 w-7" />
-          <div>
-            <p class="font-serif text-xl font-semibold">0531 - 30 29 35 00</p>
-            <p class="text-sm">Jetzt kostenlos anrufen</p>
-          </div>
-          <div class="w-8"></div></button
-      ></a>
-      <a href="mailto:{{.Site.Params.email}}"
-        ><button
-          class="flex items-center justify-between w-full rounded-md lg:w-auto mail-btn"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            class="w-6 h-6 mr-2 fill-white/75"
-          >
-            <path
-              d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z"
-            />
-            <path
-              d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z"
-            />
-          </svg>
-
-          <div>
-            <p class="font-serif text-xl font-semibold">
-              {{.Site.Params.email}}
-            </p>
-            <p class="text-sm">Jetzt per E-Mail kontaktieren</p>
-          </div>
-          <div class="w-8"></div></button
-      ></a>
+      {{partial "phone-btn.html"}} {{partial "mail-btn.html"}}
     </div>
 
     <div class="">

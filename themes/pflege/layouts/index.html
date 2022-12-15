@@ -19,19 +19,7 @@
             Wir sind ein ambulantes Pflegeteam, dass in Braunschweig Senioren in
             der Alltagsbewältigung im eigenen Zuhause unterstützt.
           </h4>
-          <a href="tel:053130293500"
-            ><button
-              class="flex items-center justify-between w-full rounded-md lg:w-auto"
-            >
-              <img src="img/phone-3.svg" class="w-6 opacity-75" />
-              <div>
-                <p class="font-serif text-xl font-semibold">
-                  0531 - 30 29 35 00
-                </p>
-                <p class="text-sm">Jetzt kostenlos anrufen</p>
-              </div>
-              <div class="w-8"></div></button
-          ></a>
+          {{partial "phone-btn.html"}}
           <div
             class="inline-flex flex-row justify-between w-full px-5 py-3 mt-2 text-center align-middle rounded-md bg-pg-gray lg:w-auto"
           >
@@ -47,23 +35,23 @@
   </div>
 </div>
 
-<div class="text-center">
-  <h4 class="py-20 text-gray-700">
+<div class="container px-5 mx-auto text-center">
+  <h4 class="py-10 text-gray-700 xl:py-20">
     Als zugelassener Pflegedienst sind wir Partner aller
     <span
-      class="font-medium text-gray-700 underline decoration-2 decoration-pg-green-700/50 underline-offset-4"
+      class="font-medium text-gray-700 underline decoration-4 decoration-pg-green-700/50 underline-offset-4"
       >gesetzlichen</span
     >
     und
     <span
-      class="font-medium text-gray-700 underline decoration-2 decoration-pg-green-700/50 underline-offset-4"
+      class="font-medium text-gray-700 underline decoration-4 decoration-pg-green-700/50 underline-offset-4"
       >privaten</span
     >
     Krankenkassen
   </h4>
 </div>
 
-<div class="mt-12">
+<div class="section">
   <div class="container px-8 mx-auto">
     <h3>Leistungen</h3>
 
@@ -76,15 +64,17 @@
 
 {{ partial "pflegegebiet.html" . }}
 
-<div class="mt-12">
+<div class="section">
   <div class="container px-8 mx-auto">
     <h3>Wie unsere Pflege abläuft</h3>
     <!-- prettier-ignore -->
+    <div class="flex flex-wrap justify-center gap-8 md:gap-12 xl:flex-nowrap">
     {{range where .Site.RegularPages "Section" "ablauf" }} {{partial "ablauf.html" .}} {{end}}
+    </div>
   </div>
 </div>
 
-<div class="mt-12">
+<div class="section">
   <div class="container px-8 mx-auto">
     <h3>Was unsere Kund*innen sagen</h3>
 
@@ -96,9 +86,23 @@
         class="w-12 my-4"
         alt="Kundenmeinung zum Pflegeteam Braunschweig"
       />
-      <h6 class="font-serif text-xl italic font-thin opacity-75 text-grey-900">
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+      <h6 class="font-sans text-xl italic font-normal opacity-75 text-grey-900">
+        Ich bin so dankbar für das Pflegeteam Braunschweig. Sie haben meiner
+        Mutter ermöglicht, in ihrem eigenen Zuhause zu bleiben, auch als ihre
+        Gesundheit begann, nachzulassen. Das Pflegeteam ist<b
+          class="font-semibold underline decoration-4 decoration-pg-green-500"
+        >
+          immer pünktlich und professionell</b
+        >
+        und nimmt sich wirklich Zeit für meine Mutter. Sie helfen ihr bei der
+        Körperpflege und geben ihr ihre Medikamente. Sie sind immer freundlich
+        und zuvorkommend und
+        <b class="font-semibold underline decoration-4 decoration-pg-green-500"
+          >meine Mutter fühlt sich wirklich geborgen und gut aufgehoben in ihrem
+          eigenen Zuhause.</b
+        >
+        Ich würde das Pflegeteam jedem empfehlen, der Pflege zu Hause benötigt.
+        Sie sind wirklich erstklassig.
       </h6>
       <p class="mt-4 text-sm font-bold tracking-wider uppercase text-grey-900">
         - Maja K.
@@ -109,7 +113,7 @@
 
 {{ partial "marketing-banner.html" . }} {{ partial "ueber_uns.html" . }}
 
-<div class="mt-12">
+<div class="section">
   <div class="container px-8 mx-auto">
     <h3>Häufig gestellte Fragen</h3>
     <!-- prettier-ignore -->

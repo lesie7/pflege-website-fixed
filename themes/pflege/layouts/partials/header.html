@@ -1,5 +1,5 @@
 <nav
-  class="fixed top-0 z-50 w-full py-8 mb-10 from-pg-green-100 bg-gradient-to-b lg:from-white/0 filter lg:py-0 lg:bg-white lg:drop-shadow-xl"
+  class="fixed top-0 z-50 w-full py-8 mb-10 from-pg-green-100 bg-gradient-to-b lg:from-white/0 filter lg:py-0 lg:bg-white lg:drop-shadow-xl navbar-main"
 >
   <div class="hidden w-full py-1 bg-slate-600 lg:inline-block">
     <div class="container px-8 mx-auto">
@@ -57,11 +57,11 @@
         class="h-8"
         alt="Pflegeteam Braunschweig Logo"
       />
-      <h5 class="w-24 ml-3 font-serif leading-snug lg:text-lg">
-        <span class="italic font-bold">Pflegeteam</span><br /><span
-          class="italic font-normal"
-          >Braunschweig</span
-        >
+      <h5
+        class="flex flex-col w-24 gap-0 ml-3 font-serif leading-snug lg:text-lg"
+      >
+        <span class="m-0 italic font-bold">Pflegeteam</span
+        ><span class="-mt-1 italic font-normal">Braunschweig</span>
       </h5>
     </a>
 
@@ -83,22 +83,12 @@
         {{end}}
       </ul>
 
-      <a href="tel:053130293500"
-        ><button
-          class="flex items-center justify-between w-full rounded-md lg:w-auto"
-        >
-          <img src='{{"img/phone-3.svg" | absURL }}' class="w-6 opacity-75" />
-          <div>
-            <p class="font-serif text-xl font-semibold">0531 - 30 29 35 00</p>
-            <p class="text-sm">Jetzt kostenlos anrufen</p>
-          </div>
-          <div class="w-8"></div></button
-      ></a>
+      {{partial "phone-btn.html"}}
     </div>
   </div>
 
   <!-- Menu-Items -->
-  <div class="absolute w-full bg-pg-green-900 lg:hidden">
+  <div class="absolute w-full bg-pg-green-900">
     <div
       class="container flex flex-row items-center justify-between hidden h-auto px-4 py-24 mx-auto md:px-0 nav-links lg:py-0 lg:flex-col lg:inline-block"
     >

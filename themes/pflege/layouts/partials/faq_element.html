@@ -1,7 +1,16 @@
-<div class="mt-6 faq-element max-w-2xl mx-auto">
-    <div class="w-full border-b-2 border-grey-300 cursor-pointer">
-        <div class="flex flex-row justify-between text-grey-900"><p class="font-serif font-bold text-md italic my-3  text-grey-900">{{.Params.frage }}</p><img src="img/plus.svg" class="ml-3 w-3 toggle-icon"><img src="img/minus.svg" class="ml-3 w-3 toggle-icon hidden"></div>
-        <p class="hidden faq-content mb-4 text-grey-900 opacity-75">{{.Params.antwort}}</p>
-        
+<div class="max-w-2xl mx-auto mt-6 faq-element">
+  <div class="w-full border-b-2 cursor-pointer border-grey-300">
+    <div class="flex flex-row justify-between text-grey-900">
+      <p class="my-3 font-sans text-lg font-medium text-md text-grey-900">
+        {{.Params.frage }}
+      </p>
+      <img src="img/plus.svg" class="w-3 ml-3 toggle-icon" /><img
+        src="img/minus.svg"
+        class="hidden w-3 ml-3 toggle-icon"
+      />
     </div>
+    <p class="hidden mb-4 opacity-75 faq-content text-grey-900">
+      {{.Params.antwort}}
+    </p>
+  </div>
 </div>

@@ -7,27 +7,35 @@
 }
 
 h1 {
-  @apply text-4xl xl:text-5xl font-serif font-black italic;
+  @apply font-serif text-4xl italic font-black xl:text-5xl;
 }
 
 h2 {
-  @apply text-2xl xl:text-3xl font-serif font-black italic mb-2 mt-9;
+  @apply mb-2 font-serif text-2xl italic font-black xl:text-3xl mt-9;
 }
 
 h3 {
-  @apply text-xl xl:text-2xl font-serif font-black italic text-center  w-8/12 sm:w-96 pb-6 my-8 mx-auto underline decoration-4 decoration-pg-green-500 underline-offset-4 decoration-solid;
+  @apply w-8/12 pb-6 mx-auto my-8 font-serif text-xl italic font-black text-center underline xl:text-2xl sm:w-96 decoration-4 decoration-pg-green-500 underline-offset-4 decoration-solid;
 }
 
 h4 {
-  @apply text-xl xl:text-2xl font-light;
+  @apply text-xl font-medium xl:text-2xl;
 }
 
 h5 {
-  @apply text-lg xl:text-xl font-serif italic font-bold;
+  @apply font-serif text-lg italic font-bold xl:text-xl;
+}
+
+.content p {
+  @apply py-1 leading-6;
+}
+
+P {
+  @apply my-3 text-slate-700;
 }
 
 button {
-  @apply bg-pg-green-700 px-5 sm:px-8 lg:px-10 py-2 text-white focus:bg-pg-green-900 hover:bg-pg-green-900;
+  @apply px-5 py-2 text-white bg-pg-green-700 sm:px-8 lg:px-10 focus:bg-pg-green-900 hover:bg-pg-green-900;
 }
 
 .mail-btn {
@@ -36,10 +44,6 @@ button {
 
 button p {
   @apply text-white rounded-md;
-}
-
-* {
-  @apply text-pg-green-900;
 }
 
 nav li {
@@ -74,11 +78,11 @@ nav ul a {
 }
 
 .single-container li {
-  @apply list-disc list-inside ml-5;
+  @apply ml-5 list-disc list-inside;
 }
 
 .single-container a {
-  @apply decoration-pg-green-500/75 decoration-2 decoration-solid underline;
+  @apply underline decoration-pg-green-500/75 decoration-2 decoration-solid;
 }
 
 .single-container h4 {
@@ -86,5 +90,9 @@ nav ul a {
 }
 
 .single-container h3 {
-  @apply text-left mx-0 mt-10 mb-5 p-0 w-full;
+  @apply w-full p-0 mx-0 mt-10 mb-5 text-left;
+}
+
+.section {
+  @apply my-14 lg:my-24;
 }
