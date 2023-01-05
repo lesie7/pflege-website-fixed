@@ -20,7 +20,7 @@ Lebensqualität in ihrem eigenen Zuhause zu erhalten. Unser Team aus erfahrenen
 und engagierten Pflegekräften ist stets um die bestmögliche Betreuung und
 Unterstützung unserer Patienten bemüht.
 
-Wir vom Pflegeteam Braunschweig wissen, dass jeder Kunde individuelle
+Wir vom Pflegeteam Braunschweig wissen, dass jeder Patient individuelle
 Bedürfnisse und Vorlieben hat. Deshalb bieten wir eine Reihe von
 Dienstleistungen an, darunter persönliche Betreuung, Medikamentenverwaltung,
 Essenszubereitung und Begleitung. Wir arbeiten eng mit unseren Patienten und

@@ -14,19 +14,29 @@
             Liebevolle Pflege in den eigenen vier Wänden.
           </h1>
           <h4
-            class="pb-4 text-gradient-green bg-opacity-60 lg:opacity-100 lg:text-white"
+            class="pb-4 font-normal text-gradient-green bg-opacity-60 lg:opacity-100 lg:text-white"
           >
             Wir sind ein ambulantes Pflegeteam, dass in Braunschweig Senioren in
             der Alltagsbewältigung im eigenen Zuhause unterstützt.
           </h4>
           {{partial "phone-btn.html"}}
           <div
-            class="inline-flex flex-row justify-between w-full px-5 py-3 mt-2 text-center align-middle rounded-md bg-pg-gray lg:w-auto"
+            class="inline-flex flex-row items-center justify-between w-auto gap-4 px-5 py-3 mt-4 text-center align-middle rounded-md text-pg-green-900 md:text-white lg:w-auto md:backdrop-blur-lg md:backdrop-brightness-75 2xl:md:backdrop-filter-none"
           >
-            <img class="h-7" src="/img/thumb.svg" />
-            <p class="font-serif italic font-normal lg:ml-4 backdrop-blur-sm">
-              >90 Zufriedene Patient*innen
-            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              class="w-5 h-5"
+            >
+              <path
+                d="M9.653 16.915l-.005-.003-.019-.01a20.759 20.759 0 01-1.162-.682 22.045 22.045 0 01-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 018-2.828A4.5 4.5 0 0118 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 01-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 01-.69.001l-.002-.001z"
+              />
+            </svg>
+
+            <span class="font-serif italic font-normal lg:ml-4">
+              Wir Pflegen Braunschweig seit 2010
+            </span>
             <div></div>
           </div>
         </div>
@@ -73,44 +83,6 @@
     </div>
   </div>
 </div>
-
-<div class="section">
-  <div class="container px-8 mx-auto">
-    <h3>Was unsere Kund*innen sagen</h3>
-
-    <div
-      class="flex flex-col items-center justify-center max-w-xl p-6 mx-auto my-4 text-center border-2 bg-green-gray border-grey-100"
-    >
-      <img
-        src="img/quote-light.svg"
-        class="w-12 my-4"
-        alt="Kundenmeinung zum Pflegeteam Braunschweig"
-      />
-      <h6 class="font-sans text-xl italic font-normal opacity-75 text-grey-900">
-        Ich bin so dankbar für das Pflegeteam Braunschweig. Sie haben meiner
-        Mutter ermöglicht, in ihrem eigenen Zuhause zu bleiben, auch als ihre
-        Gesundheit begann, nachzulassen. Das Pflegeteam ist<b
-          class="font-semibold underline decoration-4 decoration-pg-green-500"
-        >
-          immer pünktlich und professionell</b
-        >
-        und nimmt sich wirklich Zeit für meine Mutter. Sie helfen ihr bei der
-        Körperpflege und geben ihr ihre Medikamente. Sie sind immer freundlich
-        und zuvorkommend und
-        <b class="font-semibold underline decoration-4 decoration-pg-green-500"
-          >meine Mutter fühlt sich wirklich geborgen und gut aufgehoben in ihrem
-          eigenen Zuhause.</b
-        >
-        Ich würde das Pflegeteam jedem empfehlen, der Pflege zu Hause benötigt.
-        Sie sind wirklich erstklassig.
-      </h6>
-      <p class="mt-4 text-sm font-bold tracking-wider uppercase text-grey-900">
-        - Maja K.
-      </p>
-    </div>
-  </div>
-</div>
-
 {{ partial "marketing-banner.html" . }} {{ partial "ueber_uns.html" . }}
 
 <div class="section">
