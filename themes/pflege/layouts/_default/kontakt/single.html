@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="container px-8 mx-auto mt-48 mb-36">
+  <div class="flex flex-col gap-4">
+    <h1 class="">Jetzt kostenloses Erstgespräch vereinbaren. <br /></h1>
+    <h1
+      class="underline decoration-pg-green-500/75 decoration-4 decoration-solid"
+    >
+      Einfach jederzeit anrufen.
+    </h1>
+  </div>
+
+  <div class="flex flex-col gap-4 mt-9">
+    {{ partial "phone-btn.html" . }} {{ partial "mail-btn.html" . }}
+  </div>
+
+  <div class="container px-8 mx-auto mt-36 lg:mt-40">
+    <h3>Häufig gestellte Fragen</h3>
+    <!-- prettier-ignore -->
+    {{range where .Site.RegularPages "Section" "faq" }} {{ partial "faq_element.html" . }} {{ end }}
+  </div>
+</div>
+</div>
+{{ end }}

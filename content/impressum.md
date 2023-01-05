@@ -22,7 +22,7 @@ Fax: 0531 - 302 935 01
 
 www.pflegeteam-braunschweig.de Mail: pflegeteam.bs@gmx.de
 
-## Grafiken
+#### Grafiken
 
 Telephone Icon https://www.flaticon.com/authors/dave-gandy
 

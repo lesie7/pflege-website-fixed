@@ -1,6 +1,6 @@
 <a href="mailto:{{.Site.Params.email}}"
   ><button
-    class="flex items-center justify-between w-full rounded-md lg:w-auto mail-btn"
+    class="flex items-center justify-between w-full gap-3 rounded-md lg:w-auto mail-btn"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -15,9 +15,9 @@
       />
     </svg>
 
-    <div class="flex flex-col gap-1">
-      <span class="font-serif text-xl font-semibold">
-        {{ $.Site.Params.email }}
+    <div class="flex flex-col items-start gap-0">
+      <span class="font-serif font-semibold text-md">
+        {{$.Site.Params.email }}
       </span>
       <span class="text-sm">Jetzt per E-Mail kontaktieren</span>
     </div>

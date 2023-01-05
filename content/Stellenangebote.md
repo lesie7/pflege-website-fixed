@@ -4,7 +4,7 @@ draft: true
 menu:
   main:
     name: stellenangebote
-    weight: 2
+    weight: 3
 ---
 
 #### Werden Sie Teil der Pflegeteam Braunschweig-Familie: Helfen Sie Senioren und Menschen mit Behinderungen, im eigenen Zuhause selbstbestimmt zu leben

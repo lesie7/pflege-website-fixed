@@ -90,14 +90,13 @@
   <!-- Menu-Items -->
   <div class="absolute w-full bg-pg-green-900">
     <div
-      class="container flex flex-row items-center justify-between hidden h-auto px-4 py-24 mx-auto md:px-0 nav-links lg:py-0 lg:flex-col lg:inline-block"
+      class="container flex flex-row items-center justify-between hidden h-auto px-4 py-24 mx-auto md:px-0 nav-links lg:py-0"
     >
       <ul
         class="w-full font-serif text-2xl italic font-normal text-center lg:font-sans lg:not-italic lg:text-xl lg:font-normal"
       >
-        <a href=""><li>Start</li></a>
-        <a href=""><li>Kontakt</li></a>
-        <a href=""><li>Formulare</li></a>
+        {{ range $.Site.Menus.main }}<a href="{{.URL}}"><li>{{.Title}}</li></a>
+        {{end}}
       </ul>
     </div>
   </div>

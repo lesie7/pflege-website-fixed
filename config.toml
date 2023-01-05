@@ -14,7 +14,7 @@ buildDrafts = true
 [params]
   ogimage = "/img/og_image-2.png"
   description = "Ambulante Pflege in Braunschweig."
-  email = "pflegeteam.bs@gmx.de"
+  email = "kontakt@pflegteam-braunschweig.de"
 
 
 [languages]

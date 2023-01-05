@@ -4,8 +4,11 @@
       <p class="my-3 font-sans text-lg font-medium text-md text-grey-900">
         {{.Params.frage }}
       </p>
-      <img src="img/plus.svg" class="w-3 ml-3 toggle-icon" /><img
-        src="img/minus.svg"
+      <img
+        src='{{"img/plus.svg" | absURL }}'
+        class="w-3 ml-3 toggle-icon"
+      /><img
+        src='{{"img/minus.svg" | absURL }}'
         class="hidden w-3 ml-3 toggle-icon"
       />
     </div>
