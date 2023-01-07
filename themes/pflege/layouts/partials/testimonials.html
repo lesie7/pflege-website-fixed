@@ -2,35 +2,9 @@
   <div class="container px-8 mx-auto">
     <h3>Was unsere Kunden sagen</h3>
 
-    <div
-      class="flex flex-col items-center justify-center max-w-xl p-6 mx-auto my-4 text-center border-2 bg-green-gray border-grey-100"
-    >
-      <img
-        src="img/quote-light.svg"
-        class="w-12 my-4"
-        alt="Kundenmeinung zum Pflegeteam Braunschweig"
-      />
-      <h6 class="font-sans text-xl italic font-normal opacity-75 text-grey-900">
-        Ich bin so dankbar für das Pflegeteam Braunschweig. Sie haben meiner
-        Mutter ermöglicht, in ihrem eigenen Zuhause zu bleiben, auch als ihre
-        Gesundheit begann, nachzulassen. Das Pflegeteam ist<b
-          class="font-semibold underline decoration-4 decoration-pg-green-500"
-        >
-          immer pünktlich und professionell</b
-        >
-        und nimmt sich wirklich Zeit für meine Mutter. Sie helfen ihr bei der
-        Körperpflege und geben ihr ihre Medikamente. Sie sind immer freundlich
-        und zuvorkommend und
-        <b class="font-semibold underline decoration-4 decoration-pg-green-500"
-          >meine Mutter fühlt sich wirklich geborgen und gut aufgehoben in ihrem
-          eigenen Zuhause.</b
-        >
-        Ich würde das Pflegeteam jedem empfehlen, der Pflege zu Hause benötigt.
-        Sie sind wirklich erstklassig.
-      </h6>
-      <p class="mt-4 text-sm font-bold tracking-wider uppercase text-grey-900">
-        - Maja K.
-      </p>
+    <div class="flex flex-wrap justify-center gap-8">
+      {{range (where .Site.RegularPages "Section" "testimonial")}} {{partial
+      "testimonial-single.html" .}} {{end}}
     </div>
   </div>
 </div>

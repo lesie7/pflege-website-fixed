@@ -30,6 +30,14 @@ h5 {
   @apply py-1 leading-6;
 }
 
+.testimonial-content strong {
+  @apply font-semibold underline decoration-4 decoration-pg-green-500;
+}
+
+.testimonial-content p {
+  @apply text-grey-900;
+}
+
 P {
   @apply my-3 text-slate-700;
 }

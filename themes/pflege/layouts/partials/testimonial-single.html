@@ -1,0 +1,17 @@
+<div
+  class="flex flex-col items-center justify-center max-w-md p-6 text-center border-2 bg-green-gray border-grey-100"
+>
+  <img
+    src="img/quote-light.svg"
+    class="w-12 my-4"
+    alt="Kundenmeinung zum Pflegeteam Braunschweig"
+  />
+  <h6
+    class="font-sans text-xl italic font-normal opacity-75 text-grey-900 testimonial-content"
+  >
+    {{.Content}}
+  </h6>
+  <p class="mt-4 text-sm font-bold tracking-wider uppercase text-grey-900">
+    - {{.Params.author}}
+  </p>
+</div>
