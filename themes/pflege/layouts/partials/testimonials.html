@@ -3,8 +3,9 @@
     <h3>Was unsere Kunden sagen</h3>
 
     <div class="flex flex-wrap justify-center gap-8">
-      {{range (where .Site.RegularPages "Section" "testimonial")}} {{partial
-      "testimonial-single.html" .}} {{end}}
+      <!-- prettier-ignore -->
+      {{range (where .Site.RegularPages "Section" "testimonial")}} 
+      {{partial "testimonial-single.html" .}} {{end}}
     </div>
   </div>
 </div>
