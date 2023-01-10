@@ -4,7 +4,6 @@ headline: Liebevolle Pflege in den eigenen vier Wänden.
 description:
   "Wir sind ein ambulantes Pflegeteam das in Braunschweig Pflegebedürftige in
   der Alltagsbewältigung unterstützt."
-proof: Wir Pflegen Braunschweig seit 8 Jahren
 image: /img/og_image-2.png
 draft: true
 

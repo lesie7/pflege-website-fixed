@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url('/img/header-img.png')",
+        hero: "url('/img/header-img.jpg')",
         marketing_banner_img: "url('/img/marketing-banner-img.png')",
       },
       dropShadow: {
