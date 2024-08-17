@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Testimonials on Pflegeteam Braunschweig</title>
+    <link>http://localhost:1313/testimonial/</link>
+    <description>Recent content in Testimonials on Pflegeteam Braunschweig</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="http://localhost:1313/testimonial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/testimonial/erika-r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/testimonial/erika-r/</guid>
+      <description>Freundliches und Hilfsbereites Personal, die stets für einen da sind und sich verständnisvoll kümmern.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/testimonial/petra-p/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/testimonial/petra-p/</guid>
+      <description>Unsere Familie kann diesen Pflegedienst von ganzem Herzen weiterempfehlen. Hervorragendes Pflegeteam, was durch Kompetenz überzeugt.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/testimonial/werner-l/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/testimonial/werner-l/</guid>
+      <description>Sehr nette und engagierte Mitarbeiter, kompetente und zeichenlose Beratung.</description>
+    </item>
+  </channel>
+</rss>
