@@ -7,7 +7,7 @@ menu:
     weight: 3
 ---
 
-#### Werden Sie Teil der Pflegeteam Braunschweig-Familie: Helfen Sie Senioren und Menschen mit Behinderungen, im eigenen Zuhause selbstbestimmt zu leben
+#### Werden Sie Teil der Pflegeteam Braunschweig: Helfen Sie Senioren und Menschen mit Behinderungen, im eigenen Zuhause selbstbestimmt zu leben
 
 Das Pflegeteam Braunschweig ist ein führender Anbieter von ambulanter Pflege im
 Raum Braunschweig und wir suchen ab sofort qualifizierte und engagierte

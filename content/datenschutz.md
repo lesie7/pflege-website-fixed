@@ -42,7 +42,7 @@ Sinne ist:
 
 Pflegeteam Braunschweig GmbH  
 Martina Stolte-Eichler, Karin von Trzebiatowski  
-Am Okerdüker 24  
+Celler Heerstraße 321
 38112 Braunschweig
 
 Telefon: 0531 - 302 935 00  

@@ -12,8 +12,7 @@ menu:
 
 Pflegeteam Braunschweig GmbH
 
-Am Okerdüker 24
-
+Celler Heerstraße 321
 38112 Braunschweig
 
 0531 - 302 935 00
