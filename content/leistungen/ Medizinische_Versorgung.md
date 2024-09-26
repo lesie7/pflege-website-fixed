@@ -7,7 +7,8 @@ leistungen:
     "Medikamentengabe",
     "Injektionen",
     "Moderne Wundversorgung bei chronischen Wunden",
-    " Kompressionsstrümpfe an- und ausziehen",
+    "Kompressionsstrümpfe an- und ausziehen",
+    "Kompressionsverbände",
   ]
 img: /img/first-aid-kit.png
 img_alt:

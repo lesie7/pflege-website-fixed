@@ -22,8 +22,7 @@ und engagierten Pflegekräften ist stets um die bestmögliche Betreuung und
 Unterstützung unserer Patienten bemüht.
 
 Wir vom Pflegeteam Braunschweig wissen, dass jeder Patient individuelle
-Bedürfnisse und Vorlieben hat. Deshalb bieten wir eine Reihe von
-Dienstleistungen an, darunter persönliche Betreuung, Medikamentenverwaltung,
+Bedürfnisse und Vorlieben hat. Deshalb bieten wir eine Grund- und Behandlungspflege an, darunter persönliche Betreuung, Medikamentenverwaltung,
 Essenszubereitung und Begleitung. Wir arbeiten eng mit unseren Patienten und
 ihren Familien zusammen, um einen Pflegeplan zu entwickeln, der ihren
 individuellen Bedürfnissen entspricht und ihr Wohlbefinden sicherstellt.
